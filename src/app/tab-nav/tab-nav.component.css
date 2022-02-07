@@ -1,0 +1,13 @@
+.navBar {
+  align-self: center;
+}
+
+.jumbotron {
+  background-image: url('../../images/banner.png');
+  color: white;
+}
+
+.footer {
+  background: wheat;
+}
+

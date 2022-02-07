@@ -1,0 +1,66 @@
+{
+    "Games" : [
+        {
+            "id" : 1,
+            "name" : "Cyberpunk",
+            "category" : "FPS"
+        },
+        {
+            "id" : 2,
+            "name" : "Witcher 3",
+            "category" : "RPG"
+        },
+        {
+            "id" : 3,
+            "name" : "SuperHot",
+            "category" : "VR"
+        },
+        {
+            "id" : 4,
+            "name" : "AoE",
+            "category" : "RTS"
+        },
+        {
+            "id" : 5,
+            "name" : "HL: Alyx",
+            "category" : "VR"
+        },
+        {
+            "id" : 6,
+            "name" : "PUBG",
+            "category" : "FPS"
+        }
+    ],
+    "VR" : [
+        {
+            "id" : 1,
+            "name" : "Oculus Rift",
+            "developer" : "Oculus"
+        },
+        {
+            "id" : 2,
+            "name" : "Oculus Quest 2",
+            "developer" : "Oculus"
+        },
+        {
+            "id" : 3,
+            "name" : "HTC Vive Pro 2",
+            "developer" : "HTC"
+        },
+        {
+            "id" : 4,
+            "name" : "Sony Playstation",
+            "developer" : "Sony"
+        },
+        {
+            "id" : 5,
+            "name" : "Valve Index",
+            "developer" : "Valve"
+        },
+        {
+            "id" : 6,
+            "name" : "HTC Vive Cosmos",
+            "developer" : "HTC"
+        }
+    ]
+}

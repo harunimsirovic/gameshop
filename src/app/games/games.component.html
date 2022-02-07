@@ -1,0 +1,19 @@
+<h1> Game List </h1>
+<select ngModel (ngModelChange)="getGames($event); filterGame($event)" class="form-control">
+  <option value="">All Games</option>
+  <option *ngFor="let category of categories" [value]="category">{{ category }}
+  </option>
+</select>
+<div class="grid">
+<ng-container class="row" *ngFor='let game of games'>
+    <div class="col-sm-4">
+      <div class="panel panel-primary">
+        <div class="panel-heading">{{game.name}}</div>
+        <div class="panel-body"><img src="https://w7.pngwing.com/pngs/2/144/png-transparent-black-and-white-pc-dvd-rom-software-illustration-the-technomancer-logo-cd-rom-video-game-pic-dvd-logo-miscellaneous-text-monochrome-thumbnail.png" style="width:100%"></div>
+        <div class="panel-footer">Category: {{game.category}}
+            <button (click)="buyGame(game.name, game.category)">Buy</button>
+        </div>
+      </div>
+    </div>
+ </ng-container>
+</div>

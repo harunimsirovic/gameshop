@@ -1,0 +1,14 @@
+{
+    "Games" : [
+        {
+            "id" : 1,
+            "name" : "Cyberpunk 2077",
+            "category" : "FPS"
+        },
+        {
+            "id" : 2,
+            "name" : "Witcher 3",
+            "category" : "RPG"
+        }
+    ]
+}

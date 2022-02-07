@@ -1,0 +1,15 @@
+<h1> Device List </h1>
+
+<div class="grid">
+<ng-container class="row" *ngFor='let game of games'>
+    <div class="col-sm-4">
+      <div class="panel panel-primary">
+        <div class="panel-heading">{{game.name}}</div>
+        <div class="panel-body"><img src="https://m.media-amazon.com/images/I/6176A7LJyTL._SL1000_.jpg" style="width:100%"></div>
+        <div class="panel-footer">Developer: {{game.developer}}
+            <button (click)="buyGame(game.name, game.category)">Buy</button>
+        </div>
+      </div>
+    </div>
+ </ng-container>
+</div>
