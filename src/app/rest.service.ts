@@ -9,8 +9,9 @@ export class RestService {
 
   constructor(private http : HttpClient) { }
 
-  gamesUrl: string = "http://localhost:3000/Games"
-  hardwareUrl: string = "http://localhost:3000/VR"
+  gamesUrl: string = "https://my-json-server.typicode.com/harunimsirovic/Gameshop-Mixpanel/Games"
+  // http://localhost:3000/VR
+  hardwareUrl: string = "https://my-json-server.typicode.com/harunimsirovic/Gameshop-Mixpanel/VR"
 
 
   getGames() {
