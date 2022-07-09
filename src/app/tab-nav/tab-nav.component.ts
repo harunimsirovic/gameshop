@@ -30,7 +30,7 @@ export class TabNavBar implements OnInit{
     },
     {
       path: 'games',
-      label: 'Games'
+      label: 'Game'
     },
     {
       path: 'hardware',
